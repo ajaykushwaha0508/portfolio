@@ -1,5 +1,5 @@
 import React from 'react'
-
+import CV from '../../assets/ajay_resume.pdf'
 
 const CTA = () => {
 
@@ -7,7 +7,7 @@ const CTA = () => {
     
     <div className="cta">
 
-        <a href="" download className='btn'>Download CV</a>
+        <a href={CV} download className='btn'>Download CV</a>
         <a href="#contacts" className='btn btn-primary'>Contact Me</a>
     </div>
   )
