@@ -3,6 +3,7 @@ import './myprojects.css'
 import IMG1 from '../../assets/chatapp.png'
 import IMG2 from '../../assets/Spotify.png'
 import IMG3 from '../../assets/portfolio.png'
+import IMG4 from '../../assets/shopkart.png';
 
 
 const Myprojects = () => {
@@ -35,6 +36,18 @@ const Myprojects = () => {
             <div className="portfolio__item-cta">
               <a href="https://github.com/ajaykushwaha0508/Spotify_Clone" target="_blank" rel='noreferrer' className='btn'>Github</a>  
               <a href="https://spotifyapp-k6tz.onrender.com" target="_blank" rel='noreferrer' className='btn'>View</a>  
+            </div>
+            
+        </article>
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+                <img src={IMG4} alt="" />
+            </div>
+            <h3>Shopkart</h3>
+            <small className='text-light'>HTML | CSS </small>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/ajaykushwaha0508/shopkart" target="_blank" rel='noreferrer' className='btn'>Github</a>  
+              <a href="https://ajay-shopkart.netlify.app" target="_blank" rel='noreferrer' className='btn'>View</a>  
             </div>
             
         </article>
